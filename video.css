@@ -1,0 +1,31 @@
+.video-grid{
+display: grid;
+}
+
+.video-row{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 50px;
+margin-bottom: 70px;
+}
+
+.video-preview{
+display: grid;
+width: 100%;
+margin-right: 30px;
+}
+
+.video-thumbnail{
+width: 100%;
+}
+
+
+.video-title{
+width: 100%;
+margin-top: 2px;
+font-size: 20px;
+font-weight: 500;
+line-height: 20px;
+margin-bottom: 5px;
+height: 30px;
+}

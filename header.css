@@ -1,0 +1,47 @@
+.body{
+  padding-top: 70px;
+}
+
+.header{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ background-color: palevioletred;
+ align-items: center;
+
+ position: fixed;
+ top: 0;
+ left: 0;
+ right: 0;
+
+ height: 60px;
+ margin-bottom: 65px;
+ z-index: 100;
+
+}
+
+.web-logo{
+width: 100px;
+height: 50px;
+margin-left: 10px;
+cursor: pointer;
+}
+
+.search-bar{
+margin-left: 120px;
+margin-right: 30px;
+width: 400px;
+background-color: black;
+height: 50px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+color: white;
+}
+
+.sign-in-button{
+  height: 50px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
